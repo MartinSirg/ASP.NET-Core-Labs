@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <UserSecretsId>aspnet-WebApp-848C961E-C53A-4ED3-A3B5-53F1D3087F66</UserSecretsId>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.1" />
+        <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Data" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DAL\DAL.csproj" />
+    </ItemGroup>
+
+</Project>

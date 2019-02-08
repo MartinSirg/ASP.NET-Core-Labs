@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{118CF33E-C3B3-4490-995A-ACB061BF99D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{EB0D2D2D-57EF-4ECF-AF77-7066232305C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118CF33E-C3B3-4490-995A-ACB061BF99D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118CF33E-C3B3-4490-995A-ACB061BF99D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118CF33E-C3B3-4490-995A-ACB061BF99D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118CF33E-C3B3-4490-995A-ACB061BF99D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0D2D2D-57EF-4ECF-AF77-7066232305C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0D2D2D-57EF-4ECF-AF77-7066232305C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0D2D2D-57EF-4ECF-AF77-7066232305C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0D2D2D-57EF-4ECF-AF77-7066232305C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
